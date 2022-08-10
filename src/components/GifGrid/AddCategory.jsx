@@ -25,7 +25,7 @@ export const AddCategory = ({ onNewCategory }) => {
         <form onSubmit={onSubmit}>
             {/* Componente hijo - Componente presentacional */}
             <InputText
-                placeholder='Buscar gif...'
+                placeholder='Buscar GIF...'
                 value={inputValue}
                 onChange={onInputChange}
             />

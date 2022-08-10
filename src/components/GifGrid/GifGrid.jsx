@@ -7,7 +7,8 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
-            <h3>{category}</h3>
+            <h3 className="title-card-grid">{category}</h3>
+
             {
                 isLoading && <h2>Cargando...</h2>
             }

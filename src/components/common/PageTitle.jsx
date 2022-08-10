@@ -1,5 +1,8 @@
-export const PageTitle = ({title}) => {
+export const PageTitle = ({ title }) => {
   return (
-    <h1>{title}</h1>
+    <div className="title-container">
+      <h1>{title}</h1>
+      <img className="mushroom" src="../public/mushroom.png" />
+    </div>
   )
 }
