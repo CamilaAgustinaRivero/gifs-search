@@ -14,7 +14,7 @@ export const GifsSearch = () => {
     return (
         <>
             {/* Título */}
-            <PageTitle title="GIFs Search App" />
+            <PageTitle title="GIFs Search" />
 
             {/* Agregado de categorias */}
             <AddCategory
